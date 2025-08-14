@@ -70,6 +70,7 @@
     "qrcode-reader": "^1.0.4",
     "rimraf": "^5.0.5",
     "speedtest-net": "^2.2.0",
+    "steno": "^0.4.1",
     "syntax-error": "^1.4.0",
     "ws": "^8.18.3",
     "yargs": "^17.7.2",
