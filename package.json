@@ -23,6 +23,7 @@
     "@whiskeysockets/baileys": "latest",
     "aptoide-api": "^4.0.7",
     "archiver": "latest",
+    "react": "latest",
     "awesome-phonenumber": "^6.4.0",
     "axios": "^1.6.7",
     "cfonts": "^3.2.0",
