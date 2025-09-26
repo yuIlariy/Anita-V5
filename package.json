@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "pm2 start index.js --name Queen_Anita-V5 --deep-monitoring --attach",
+    "stop": "pm2 stop Queen_Anita-V5",
+    "restart": "pm2 restart Queen_Anita-V5"
   },
   "keywords": [
     "whiskeysockets",
@@ -16,14 +18,13 @@
   "dependencies": {
     "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@^6.7.17",
     "@adiwajshing/keyed-db": "^0.2.4",
-    "@rodrigogs/baileys-store": "^1.0.1",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
+    "@rodrigogs/baileys-store": "^1.0.1",
     "@vitalets/google-translate-api": "^8.0.0",
     "@whiskeysockets/baileys": "latest",
     "aptoide-api": "^4.0.7",
     "archiver": "latest",
-    "react": "latest",
     "awesome-phonenumber": "^6.4.0",
     "axios": "^1.6.7",
     "cfonts": "^3.2.0",
@@ -66,9 +67,11 @@
     "performance-now": "*",
     "pino": "^8.17.2",
     "playwright": "^1.54.2",
+    "pm2": "^6.0.13",
     "pretty-ms": "^7.0.1",
     "qrcode": "^1.5.3",
     "qrcode-reader": "^1.0.4",
+    "react": "latest",
     "rimraf": "^5.0.5",
     "speedtest-net": "^2.2.0",
     "steno": "^0.4.1",
